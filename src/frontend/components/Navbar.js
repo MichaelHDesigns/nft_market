@@ -10,7 +10,7 @@ const Navigation = ({ web3Handler, account }) => {
             <Container>
                 <Navbar.Brand href="http://www.dappuniversity.com/bootcamp">
                     <img src={market} width="40" height="40" className="" alt="" />
-                    &nbsp; DApp NFT Marketplace
+                    &nbsp; Altcoinchain NFT Marketplace
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
@@ -23,7 +23,7 @@ const Navigation = ({ web3Handler, account }) => {
                     <Nav>
                         {account ? (
                             <Nav.Link
-                                href={`https://etherscan.io/address/${account}`}
+                                href={`http://161.35.101.221:3000/?network=Altcoinchain/address/${account}`}
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="button nav-button btn-sm mx-4">
