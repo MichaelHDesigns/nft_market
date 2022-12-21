@@ -12,7 +12,7 @@ function renderSoldItems(items) {
             <Card>
               <Card.Img variant="top" src={item.image} />
               <Card.Footer>
-                For {ethers.utils.formatEther(item.totalPrice)} ETH - Recieved {ethers.utils.formatEther(item.price)} ETH
+                For {ethers.utils.formatEther(item.totalPrice)} ALT - Recieved {ethers.utils.formatEther(item.price)} ALT
               </Card.Footer>
             </Card>
           </Col>
@@ -77,7 +77,7 @@ export default function MyListedItems({ marketplace, nft, account }) {
               <Col key={idx} className="overflow-hidden">
                 <Card>
                   <Card.Img variant="top" src={item.image} />
-                  <Card.Footer>{ethers.utils.formatEther(item.totalPrice)} ETH</Card.Footer>
+                  <Card.Footer>{ethers.utils.formatEther(item.totalPrice)} ALT</Card.Footer>
                 </Card>
               </Col>
             ))}
