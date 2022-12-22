@@ -1,6 +1,12 @@
 require("@nomiclabs/hardhat-waffle");
 
 module.exports = {
+  networks: {
+    altcoinchain: {
+      url: "https://rpc0.altcoinchain.org/rpc",
+      accounts: [process.env.PRIVATE_KEY],
+    }	    
+},
   solidity: "0.8.4",
   paths: {
     artifacts: "./src/backend/artifacts",
