@@ -4,7 +4,7 @@ module.exports = {
   networks: {
     altcoinchain: {
       url: "https://rpc0.altcoinchain.org/rpc",
-      accounts: [process.env.PRIVATE_KEY],
+      accounts: [process.env.privateKey],
     }	    
 },
   solidity: "0.8.4",
