@@ -6,11 +6,6 @@ import * as serviceWorker from './serviceWorker';
 const rootElement = document.getElementById("root");
 render( <App />, rootElement);
 
-cors: {
-origin: [‘https://michaelhdesigns.github.io’, ‘http://localhost:8545’],
-methods: ‘GET,HEAD,PUT,PATCH,DELETE’,
-},
-
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
