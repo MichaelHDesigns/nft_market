@@ -1,7 +1,7 @@
 {
   "name": "starter_kit",
   "version": "0.2.0",
-  "homepage": " https://michaelhdesigns.github.io/nft_marketplace/",
+  "homepage": " https://michaelhdesigns.github.io/nft_market/",
   "private": false,
   "dependencies": {
     "@babel/preset-react": "^7.16.7",
