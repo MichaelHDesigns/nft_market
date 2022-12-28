@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { ethers } from "ethers"
 import { Row, Form, Button } from 'react-bootstrap'
 import { create as ipfsHttpClient } from 'ipfs-http-client'
-const client = ipfsHttpClient('ipfs://bafybeiggck4zcfr6y7bt6ffxkiymd6qyjhmygupgzuuc2uvnq6xfmsmujm')
+const client = ipfsHttpClient('ipfs://bafybeiggck4zcfr6y7bt6ffxkiymd6qyjhmygupgzuuc2uvnq6xfmsmujm/api/v0')
 
 const Create = ({ marketplace, nft }) => {
   const [image, setImage] = useState('')
